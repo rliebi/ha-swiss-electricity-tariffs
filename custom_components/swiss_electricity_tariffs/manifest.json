@@ -1,0 +1,14 @@
+{
+  "domain": "swiss_electricity_tariffs",
+  "name": "Swiss Electricity Tariffs (ElCom/LINDAS)",
+  "version": "0.1.0",
+  "documentation": "https://github.com/example/swiss_electricity_tariffs#readme",
+  "issue_tracker": "https://github.com/example/swiss_electricity_tariffs/issues",
+  "codeowners": ["@your-github"],
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "integration_type": "service",
+  "dependencies": [],
+  "requirements": [],
+  "loggers": ["custom_components.swiss_electricity_tariffs"]
+}

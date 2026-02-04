@@ -1,0 +1,46 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Swiss Electricity Tariffs",
+        "description": "Suche nach einer Schweizer Gemeinde um Tarife zu laden.",
+        "data": {
+          "municipality_text": "Gemeinde Suchtext"
+        }
+      },
+      "select_municipality": {
+        "title": "Gemeinde und Jahr waehlen",
+        "data": {
+          "municipality_label": "Gemeinde",
+          "year": "Jahr"
+        }
+      }
+    },
+    "error": {
+      "required": "Dieses Feld ist erforderlich.",
+      "no_results": "Keine Treffer gefunden.",
+      "cannot_connect": "LINDAS Endpoint nicht erreichbar."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Optionen",
+        "description": "Jahr oder Update Intervall aendern, oder andere Gemeinde suchen.",
+        "data": {
+          "do_search": "Gemeinde suchen",
+          "year": "Jahr",
+          "update_interval_hours": "Update Intervall (Stunden)"
+        }
+      },
+      "options_select": {
+        "title": "Gemeinde waehlen",
+        "data": {
+          "municipality_label": "Gemeinde",
+          "year": "Jahr",
+          "update_interval_hours": "Update Intervall (Stunden)"
+        }
+      }
+    }
+  }
+}

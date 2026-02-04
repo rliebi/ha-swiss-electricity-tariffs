@@ -1,0 +1,46 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Swiss Electricity Tariffs",
+        "description": "Search for a Swiss municipality (Gemeinde) to fetch tariffs.",
+        "data": {
+          "municipality_text": "Municipality search text"
+        }
+      },
+      "select_municipality": {
+        "title": "Select Municipality and Year",
+        "data": {
+          "municipality_label": "Municipality",
+          "year": "Year"
+        }
+      }
+    },
+    "error": {
+      "required": "This field is required.",
+      "no_results": "No results found.",
+      "cannot_connect": "Cannot contact LINDAS endpoint."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options",
+        "description": "Change year or update interval, or search another municipality.",
+        "data": {
+          "do_search": "Search municipality",
+          "year": "Year",
+          "update_interval_hours": "Update interval (hours)"
+        }
+      },
+      "options_select": {
+        "title": "Select Municipality",
+        "data": {
+          "municipality_label": "Municipality",
+          "year": "Year",
+          "update_interval_hours": "Update interval (hours)"
+        }
+      }
+    }
+  }
+}

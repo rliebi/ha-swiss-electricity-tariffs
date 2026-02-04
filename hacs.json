@@ -1,0 +1,7 @@
+{
+  "name": "Swiss Electricity Tariffs (ElCom/LINDAS)",
+  "render_readme": true,
+  "country": ["CH"],
+  "domains": ["sensor"],
+  "homeassistant": "2024.1.0"
+}
